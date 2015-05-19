@@ -1,0 +1,12 @@
+
+I have implemented the simple JavaScript console. You can type some command in the command inptbox and run it. Below feature I have implemented
+
+>> JavaScript evaluation
+
+>> context based auto completion : While typing command you will get drop-down list of 
+   auto-complete commands.   
+   Note: when you are getting the command auto-complete drop-down box please use mouse to scroll/select the option from it. I have implemented for mouse selection only not for keyboard selection.
+
+>> command history: By using ARROW UP and ARROW DOWN key you see the command history.
+   Note: After one or more commands you can get the histoy. But if you refresh the page 
+   the history will be deleted.

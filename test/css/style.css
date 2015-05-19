@@ -1,0 +1,55 @@
+	.cmd-output {
+    height: 50%; 
+    width: 100%; 
+    border: 1px solid #333; 
+    overflow:scroll;
+  }
+  
+  #cmd-input{	
+    height: 30px; 
+    width: 100%; 
+    border: 2px solid #D5C2C2; 
+    box-shadow: 1px 5px #888888;
+    background-color: #E6E8F2;font-size: 18px;
+    padding-left: 10px;
+  }
+
+  ul { 
+    list-style-type: none; 
+  }	
+  
+  li {
+    border-bottom: 1px dotted;
+  }	
+  
+  .cmd-pre{    			
+  	color: #3583FC;
+  	font-size: 15px;
+  	font-weight: bold;
+  }
+  
+  .cmd-display{
+    display: inline-block;
+  }
+  
+  .return-pre{    			
+  	color: grey;
+  	font-size: 15px;
+  	font-weight: bold;
+  }
+
+  .err-pre{
+    color: red;
+  	font-size: 15px;
+  	font-weight: bold;	
+  }
+  
+  .end {
+    border-bottom: 2px solid;
+  } 
+         
+  #ui-id-1 {
+    width: 325 !important;            
+    max-height: 48%;            
+    overflow-y: auto;
+  }
